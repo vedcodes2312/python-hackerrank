@@ -5,9 +5,9 @@ if __name__ == '__main__':
     List=[];
 
     for i in range(N):
-
-        command=input().split();
-
+  
+        command=input().split();   #COMMAND LINE ARGUMENTS LIKE STRING ARGS IN JAVA 
+ # INSERT A B   -------->  ['INSERT' 'A' 'B']
         if command[0] == "insert":
 
             List.insert(int(command[1]),int(command[2]))
